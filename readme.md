@@ -13,3 +13,17 @@ O HTTP é um protocolo que permite entender fluxo de mensagens entre cliente e s
 HTTP significa **HyperText Transfer Protocol (Protocolo de transferência de HyperTexto)**, com outras palavras iremos falar que é um conjunto de regras formado por palavras que podem conter imagens, vídeos e muito mais
 
 Ele permite trocar informações e dados na internet como HTML, CSS, Scripts, Imagens e outros
+
+## Aula 03 - Visualizando a comunicação
+O envio de informações do browser para o servidor é feito por requisições (Request) e o servidor vai responder (Response) algo para o browser
+
+Um **request** possui métodos, um cabeçalho (Headers) e corpo (Body), os métodos define o tipo da requisição onde ler usamos o `get` e para criar o `post`
+
+Um **response** vai ser ter um status com código (Status code) e as vezes um cabeçalho e corpo, os status é a resposta do servidor sobre o request realizado
+
+Um **headers** possui campos informativos no formato de propriedade valor como podemos ver
+```ts
+name: "Deibson Cogo"
+```
+
+Um **body** é utilizado no envio ou recebimento de algum conteúdo num formato especifico como `JSON`
