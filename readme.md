@@ -27,3 +27,6 @@ name: "Deibson Cogo"
 ```
 
 Um **body** é utilizado no envio ou recebimento de algum conteúdo num formato especifico como `JSON`
+
+## Aula 04 - Visualizando com DevTools
+Um atalho para abrir ele é apertando a tecla F12 dentro do navegador, a partir dele conseguimos ver tudo que aconteceu durante uma nevação em algum site mais para isso temos que ir na aba rede
