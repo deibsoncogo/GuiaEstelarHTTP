@@ -30,3 +30,21 @@ Um **body** é utilizado no envio ou recebimento de algum conteúdo num formato 
 
 ## Aula 04 - Visualizando com DevTools
 Um atalho para abrir ele é apertando a tecla F12 dentro do navegador, a partir dele conseguimos ver tudo que aconteceu durante uma nevação em algum site mais para isso temos que ir na aba rede
+
+## Aula 05 - Visualizando com cURL
+O `cURL` é uma ferramenta que vai permitir ver todas informações que um protocolo possui, ele vem instalado no `Git Bash`
+
+Para executar uma requisição simples usamos este comando
+```bash
+curl https://google.com
+```
+
+Para retornar os headers das respostas adicionamos um item no comando
+```bash
+curl -i https://google.com
+```
+
+Para retornar todos headers temos que trocar um item no comando, onde os itens que começarem com `*` serão informações de conexão, os com `>` é informações relacionado ao request e com `<` do response
+```bash
+curl -v https://google.com
+```
