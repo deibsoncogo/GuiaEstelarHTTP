@@ -53,3 +53,6 @@ curl -v https://google.com
 
 ## Aula 06 - Conceitos
 Ele criado para ser legível e utilizado por qualquer pessoa, tudo é realizado entre o cliente e servidor por requisição e resposta (Request ou response), ele não salva estado dos itens pois ele é um **stateless** mais possui a funções de sessões por exemplo cookies e storage, ele também é extensível onde pelo cabeçalho podemos realizar diversas trocas de informações
+
+## Aula 07 - Cliente
+O cliente é user agent onde na maioria das vezes é o browser que funciona a partir de pedido de métodos como `get`, `post`, `put` e `delete` (São os mais utilizados)
