@@ -59,3 +59,6 @@ O cliente é user agent onde na maioria das vezes é o browser que funciona a pa
 
 ## Aula 08 - Servidor
 O servidor é uma máquina em algum ligar no mundo esperando um pedido do cliente, um computador pode estar conectado a diversos servidores ao mesmo tempo, sua função é responder algo como um status code
+
+## Aula 09 - Proxies
+Os proxies possuem a função de ser um representando onde ele fica entre o cliente e o servidor ajudando a transportar os dados, um exemplo seria o roteador de internet que temos em casa, existe diversas funções para ele como criação de cache, filtro (Regra de acesso), autenticação e outros
