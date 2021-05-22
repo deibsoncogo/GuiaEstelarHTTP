@@ -48,3 +48,8 @@ Para retornar todos headers temos que trocar um item no comando, onde os itens q
 ```bash
 curl -v https://google.com
 ```
+
+# Modulo 02 - Conceitos
+
+## Aula 06 - Conceitos
+Ele criado para ser legível e utilizado por qualquer pessoa, tudo é realizado entre o cliente e servidor por requisição e resposta (Request ou response), ele não salva estado dos itens pois ele é um **stateless** mais possui a funções de sessões por exemplo cookies e storage, ele também é extensível onde pelo cabeçalho podemos realizar diversas trocas de informações
