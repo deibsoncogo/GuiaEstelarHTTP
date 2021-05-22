@@ -56,3 +56,6 @@ Ele criado para ser legível e utilizado por qualquer pessoa, tudo é realizado 
 
 ## Aula 07 - Cliente
 O cliente é user agent onde na maioria das vezes é o browser que funciona a partir de pedido de métodos como `get`, `post`, `put` e `delete` (São os mais utilizados)
+
+## Aula 08 - Servidor
+O servidor é uma máquina em algum ligar no mundo esperando um pedido do cliente, um computador pode estar conectado a diversos servidores ao mesmo tempo, sua função é responder algo como um status code
