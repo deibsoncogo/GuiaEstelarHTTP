@@ -62,3 +62,8 @@ O servidor é uma máquina em algum ligar no mundo esperando um pedido do client
 
 ## Aula 09 - Proxies
 Os proxies possuem a função de ser um representando onde ele fica entre o cliente e o servidor ajudando a transportar os dados, um exemplo seria o roteador de internet que temos em casa, existe diversas funções para ele como criação de cache, filtro (Regra de acesso), autenticação e outros
+
+# Modulo 03 - URI
+
+## Aula 10 - Resource
+O `Uniform Resource Identifier (URI)` é um identificador de forma uniforme que vai identificar o recurso pelo nome ou localização
