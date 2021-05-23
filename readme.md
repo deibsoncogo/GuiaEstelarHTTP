@@ -67,3 +67,6 @@ Os proxies possuem a função de ser um representando onde ele fica entre o clie
 
 ## Aula 10 - Resource
 O `Uniform Resource Identifier (URI)` é um identificador de forma uniforme que vai identificar o recurso pelo nome ou localização
+
+## Aula 11 - Recurso
+O recurso é o alvo do pedido, ele é qualquer coisa identificável (Entidade), ela possui algumas formas como **digital** que seria um email representado assim `mailto:teste@email.com.br`, a forma **abstrata** seria uma sessão ou autenticação e a última é a **física** como produtos ou usuários
