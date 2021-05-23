@@ -91,3 +91,10 @@ https://www.rocketseat.com.br/blog
 https://www.youtube.com/watch?v=vpYct2npKD8
 http://127.0.0.1:3333/index.html#algumlugar
 ```
+
+## Aula 13 - URN
+`Uniform Resource Name` é um tipo de localizador pelo nome do local, temos este exemplo da aplicação
+```bash
+urn:isbn:0451450523
+urn:oasis:names:specification:doc:dtd:xml:4.1.2
+```
