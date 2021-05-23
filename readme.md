@@ -98,3 +98,6 @@ http://127.0.0.1:3333/index.html#algumlugar
 urn:isbn:0451450523
 urn:oasis:names:specification:doc:dtd:xml:4.1.2
 ```
+
+## Aula 14 - Revisão resource
+A URN quase não será utilizada já a URL iremos usar muito
