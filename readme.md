@@ -101,3 +101,8 @@ urn:oasis:names:specification:doc:dtd:xml:4.1.2
 
 ## Aula 14 - Revisão resource
 A URN quase não será utilizada já a URL iremos usar muito
+
+# Modulo 04 - Messages
+
+## Aula 15 - Mensagens
+Toda comunicação é feita por mensagens a partir da versão 1.1 do HTTP de forma bem legível e textual, já na versão 2 ela possui uma estrutura binária permitindo otimizações
