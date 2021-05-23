@@ -70,3 +70,24 @@ O `Uniform Resource Identifier (URI)` é um identificador de forma uniforme que 
 
 ## Aula 11 - Recurso
 O recurso é o alvo do pedido, ele é qualquer coisa identificável (Entidade), ela possui algumas formas como **digital** que seria um email representado assim `mailto:teste@email.com.br`, a forma **abstrata** seria uma sessão ou autenticação e a última é a **física** como produtos ou usuários
+
+## Aula 12 - URL
+`Uniform Resource Locator` é um tipo de localizador pelo endereço, ela deve conter estes itens
+  * Protocolo: É a primeira coisa do endereço (https)
+  * Domínio: Seria o endereço do site (rocketseat.com.br)
+
+Também temos alguns itens que são opcionais onde quando utilizamos ele se torna fundamental
+  * Subdomínio: Vem antes do domínio (www)
+  * Path: É tudo que vem depois do domínio (/blog)
+  * Parâmetro: É identificado por uma interrogação, chave e um valor (?chave=valor)
+  * Porta: Uma porta é identificada por dois pontos (:3333)
+  * Âncora: É reconhecido pela hashtag onde nos leva para alguma parte do site (#lugar)
+
+O protocolo `http` usa a porta 80 quando não informamos uma e o `https` a 443
+
+```bash
+// exemplos de URL completos
+https://www.rocketseat.com.br/blog
+https://www.youtube.com/watch?v=vpYct2npKD8
+http://127.0.0.1:3333/index.html#algumlugar
+```
