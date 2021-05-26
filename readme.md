@@ -122,3 +122,11 @@ Existe diversos métodos e verbos HTTP que podemos usar onde os principais iremo
 Uma definição de conjunto de métodos HTTP é que cada um indica a ação que o cliente deseja operar, também podemos chamar de verbos HTTP, cada um possui a seu significado
 
 Alguns são **seguros** pois alguns servem para realizar consultas (GET, HEAD e OPTIONS) e outros são **idempotente** pois ao executar o método a resposta deverá ser sempre a mesmo (PUT, DELETE, GET, HEAD e OPTIONS) mais o status code pode mudar
+
+## Aula 20 - JSON Server
+Para executar os testes vamos precisar instalar a dependência [JSON-Server](https://github.com/typicode/json-server) de forma global
+```bash
+npm install -g json-server
+```
+
+Para quem não quiser instalar ele temos o `JSONPlaceholder` para utilizar
