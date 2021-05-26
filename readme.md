@@ -117,3 +117,8 @@ A resposta vai possuir o protocolo, status code, headers e status message
 
 ## Aula 18 - Introdução
 Existe diversos métodos e verbos HTTP que podemos usar onde os principais iremos estudar
+
+## Aula 19 - Methods
+Uma definição de conjunto de métodos HTTP é que cada um indica a ação que o cliente deseja operar, também podemos chamar de verbos HTTP, cada um possui a seu significado
+
+Alguns são **seguros** pois alguns servem para realizar consultas (GET, HEAD e OPTIONS) e outros são **idempotente** pois ao executar o método a resposta deverá ser sempre a mesmo (PUT, DELETE, GET, HEAD e OPTIONS) mais o status code pode mudar
