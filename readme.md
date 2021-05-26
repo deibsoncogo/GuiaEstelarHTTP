@@ -109,3 +109,6 @@ Toda comunicação é feita por mensagens a partir da versão 1.1 do HTTP de for
 
 ## Aula 16 - Request
 O pedido possui um método baseado em um protocolo e URI, algumas vezes enviamos body e headers
+
+## Aula 17 - Response
+A resposta vai possuir o protocolo, status code, headers e status message
