@@ -112,3 +112,8 @@ O pedido possui um método baseado em um protocolo e URI, algumas vezes enviamos
 
 ## Aula 17 - Response
 A resposta vai possuir o protocolo, status code, headers e status message
+
+# Modulo 05 - Methods
+
+## Aula 18 - Introdução
+Existe diversos métodos e verbos HTTP que podemos usar onde os principais iremos estudar
