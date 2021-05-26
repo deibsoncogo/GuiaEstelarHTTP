@@ -106,3 +106,6 @@ A URN quase não será utilizada já a URL iremos usar muito
 
 ## Aula 15 - Mensagens
 Toda comunicação é feita por mensagens a partir da versão 1.1 do HTTP de forma bem legível e textual, já na versão 2 ela possui uma estrutura binária permitindo otimizações
+
+## Aula 16 - Request
+O pedido possui um método baseado em um protocolo e URI, algumas vezes enviamos body e headers
