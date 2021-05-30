@@ -133,3 +133,6 @@ Para quem não quiser instalar ele temos o `JSONPlaceholder` para utilizar
 
 ## Aula 21 - Options
 Ele serve para informar quais métodos estão disponíveis em uma rota especifica, este método é seguro pois ele não altera nada, também é idempotente pois sempre vai retornar o mesmo conteúdo, o request e o response são em branco
+
+## Aula 22 - Get
+O `get` serve para pegar um recurso, com ele conseguimos realizar somente consultas assim tornando ele seguro e idempotente, ele possui somente um response, conseguimos criar cache e também utilizar formulários HTML
