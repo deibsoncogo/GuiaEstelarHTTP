@@ -130,3 +130,6 @@ npm install -g json-server
 ```
 
 Para quem não quiser instalar ele temos o `JSONPlaceholder` para utilizar
+
+## Aula 21 - Options
+Ele serve para informar quais métodos estão disponíveis em uma rota especifica, este método é seguro pois ele não altera nada, também é idempotente pois sempre vai retornar o mesmo conteúdo, o request e o response são em branco
