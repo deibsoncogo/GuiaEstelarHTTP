@@ -139,3 +139,6 @@ O `get` serve para pegar um recurso, com ele conseguimos realizar somente consul
 
 ## Aula 23 - Head
 Ele é parecido ao do `get` mais com ele recebemos somente o cabeçalho, este método é seguro e idempotente, não possui um `request` ou `response`, também não é utilizado em formulários e existe a possibilidade de criar cache com ele
+
+## Aula 24 - Post
+Ele é utilizar para cadastrar um recurso, ele não é seguro ou idempotente, podemos ter um `request` ou `response`, é muito utilizado em formulários e existe a possibilidade de criar um cache
