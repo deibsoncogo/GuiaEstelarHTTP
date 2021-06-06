@@ -136,3 +136,6 @@ Ele serve para informar quais métodos estão disponíveis em uma rota especific
 
 ## Aula 22 - Get
 O `get` serve para pegar um recurso, com ele conseguimos realizar somente consultas assim tornando ele seguro e idempotente, ele possui somente um response, conseguimos criar cache e também utilizar formulários HTML
+
+## Aula 23 - Head
+Ele é parecido ao do `get` mais com ele recebemos somente o cabeçalho, este método é seguro e idempotente, não possui um `request` ou `response`, também não é utilizado em formulários e existe a possibilidade de criar cache com ele
