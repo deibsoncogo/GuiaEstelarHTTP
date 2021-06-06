@@ -142,3 +142,12 @@ Ele é parecido ao do `get` mais com ele recebemos somente o cabeçalho, este m�
 
 ## Aula 24 - Post
 Ele é utilizar para cadastrar um recurso, ele não é seguro ou idempotente, podemos ter um `request` ou `response`, é muito utilizado em formulários e existe a possibilidade de criar um cache
+
+## Aula 25 - Put
+Podemos utilizar para criar um recurso ou alterar
+  * [ ] Seguro (Não altera as informações)
+  * [X] Idempotente (Sempre teremos a mesma resposta)
+  * [X] Request (Se possui uma requisição)
+  * [ ] Response (Se possui uma resposta)
+  * [ ] Formulário (Se é utilizado em formulários)
+  * [ ] Cacheable (Se podemos criar cache com el)
