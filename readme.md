@@ -132,22 +132,47 @@ npm install -g json-server
 Para quem não quiser instalar ele temos o `JSONPlaceholder` para utilizar
 
 ## Aula 21 - Options
-Ele serve para informar quais métodos estão disponíveis em uma rota especifica, este método é seguro pois ele não altera nada, também é idempotente pois sempre vai retornar o mesmo conteúdo, o request e o response são em branco
+Ele serve para informar quais métodos estão disponíveis em uma rota especifica
+  * [X] Seguro (Se não altera as informações)
+  * [X] Idempotente (Se sempre teremos a mesma resposta)
+  * [ ] Request (Se possui uma requisição)
+  * [ ] Response (Se possui uma resposta)
+  * [ ] Formulário (Se é utilizado em formulários)
+  * [ ] Cacheable (Se podemos criar cache com ele)
 
 ## Aula 22 - Get
-O `get` serve para pegar um recurso, com ele conseguimos realizar somente consultas assim tornando ele seguro e idempotente, ele possui somente um response, conseguimos criar cache e também utilizar formulários HTML
+Este método serve para recuperar as informações de um recurso
+  * [X] Seguro (Se não altera as informações)
+  * [X] Idempotente (Se sempre teremos a mesma resposta)
+  * [ ] Request (Se possui uma requisição)
+  * [X] Response (Se possui uma resposta)
+  * [X] Formulário (Se é utilizado em formulários)
+  * [X] Cacheable (Se podemos criar cache com ele)
+
 
 ## Aula 23 - Head
-Ele é parecido ao do `get` mais com ele recebemos somente o cabeçalho, este método é seguro e idempotente, não possui um `request` ou `response`, também não é utilizado em formulários e existe a possibilidade de criar cache com ele
+Ele é parecido ao método `get` mais ele recebe somente o cabeçalho
+  * [X] Seguro (Se não altera as informações)
+  * [X] Idempotente (Se sempre teremos a mesma resposta)
+  * [ ] Request (Se possui uma requisição)
+  * [ ] Response (Se possui uma resposta)
+  * [ ] Formulário (Se é utilizado em formulários)
+  * [X] Cacheable (Se podemos criar cache com ele)
 
 ## Aula 24 - Post
-Ele é utilizar para cadastrar um recurso, ele não é seguro ou idempotente, podemos ter um `request` ou `response`, é muito utilizado em formulários e existe a possibilidade de criar um cache
+Ele é utilizar para cadastrar um novo recurso
+  * [ ] Seguro (Se não altera alguma informação)
+  * [ ] Idempotente (Se sempre teremos o mesmo tipo de retorno)
+  * [X] Request (Se possui uma requisição)
+  * [X] Response (Se possui uma resposta)
+  * [X] Formulário (Se é utilizado em formulários)
+  * [X] Cacheable (Se podemos criar cache com ele)
 
 ## Aula 25 - Put
 Podemos utilizar para criar um recurso ou alterar
-  * [ ] Seguro (Não altera as informações)
-  * [X] Idempotente (Sempre teremos a mesma resposta)
+  * [ ] Seguro (Se não altera alguma informação)
+  * [X] Idempotente (Se sempre teremos o mesmo tipo de retorno)
   * [X] Request (Se possui uma requisição)
   * [ ] Response (Se possui uma resposta)
   * [ ] Formulário (Se é utilizado em formulários)
-  * [ ] Cacheable (Se podemos criar cache com el)
+  * [ ] Cacheable (Se podemos criar cache com ele)
