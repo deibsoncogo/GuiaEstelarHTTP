@@ -176,3 +176,12 @@ Podemos utilizar para criar um recurso ou alterar
   * [ ] Response (Se possui uma resposta)
   * [ ] Formulário (Se é utilizado em formulários)
   * [ ] Cacheable (Se podemos criar cache com ele)
+
+## Aula 26 - Patch
+Ele serve para realizar uma modificação parcial de algo
+  * [ ] Seguro (Se não altera alguma informação)
+  * [ ] Idempotente (Se sempre teremos o mesmo tipo de retorno)
+  * [X] Request (Se possui uma requisição)
+  * [X] Response (Se possui uma resposta)
+  * [ ] Formulário (Se é utilizado em formulários)
+  * [ ] Cacheable (Se podemos criar cache com ele)
