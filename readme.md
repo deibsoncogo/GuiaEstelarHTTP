@@ -224,3 +224,34 @@ Date mostra quando a informação foi criada
 ## Aula 33 - Obtendo ajuda
 Com o `DevDocs` conseguimos consultar diversos conteúdos didáticos de tudo da informática
 Temos eles de forma online por este [site](https://devdocs.io) e de forma offline pelo programa
+
+# Modulo 07 - Status
+
+## Aula 34 - Status code mais comuns
+O status code serve para nos mostrar a situação de uma requisição que na maioria das vezes é definida pelo usuário, ela existe 5 grupos e iremos ver os principais
+
+Os de respostas de informações começam com o número 1
+  * 100 serve para dizer que podemos continuar ou parar
+
+Os de respostas de sucesso começam com o número 2
+  * 200 preferencialmente usado no get e post para mostrar que foi executado
+  * 201 preferencialmente usado com o put falando que algo foi criado
+  * 204 preferencialmente usado no delete e put falando que foi alterado mais não tem nada a mostra
+
+Os de redirecionamento começam com o número 3
+  * 301 mostra que algo foi movido permanentemente pelo método get
+  * 308 é na base dos outros métodos mostrando que algo foi movido permanentemente
+  * 302 quando algo é movido temporariamente usando o método get
+  * 307 é usado mais para o outros métodos quando algo é movido temporariamente
+
+Os de erros do cliente começam com o número 4
+  * 400 quando uma requisição não foi feita corretamente
+  * 401 quando você não tem autorização para acessar algo
+  * 403 quando a chave de autorização não é válida
+  * 404 quando um recurso não é encontrado
+  * 405 o método usado não é permitido
+  * 429 usado para bloquear requisição requisições em excesso
+
+Os de erros do servidor começam com o número 5
+  * 500 quando acontece um erro no servidor
+  * 503 é quando o serviço não está disponível
