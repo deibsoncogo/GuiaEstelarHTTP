@@ -220,3 +220,7 @@ Existe também diversos tipos onde os principais é o
 Cache control que mostra as configurações dos caches
 Content encoding mostra o tipo de codificação
 Date mostra quando a informação foi criada
+
+## Aula 33 - Obtendo ajuda
+Com o `DevDocs` conseguimos consultar diversos conteúdos didáticos de tudo da informática
+Temos eles de forma online por este [site](https://devdocs.io) e de forma offline pelo programa
