@@ -200,3 +200,6 @@ Usamos ele para remover um recurso/informação
 ## Aula 28 - O que são Headers?
 Sua tradução é cabeçalhos, onde são informações adicionais utilizado no resquest ou no response
 Ele funciona no esquema de nome e valor
+
+## Aula 29 - Entendendo pelo contexto
+Existe diversos headers e para deixar dinâmico a explicação iremos dividir eles em três contextos como general, request headers e response headers.
