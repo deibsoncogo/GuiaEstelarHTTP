@@ -207,3 +207,10 @@ Existe diversos headers e para deixar dinâmico a explicação iremos dividir el
 ## Aula 30 - General
 Os contextos `servem` podem ser utilizado tanto pelo resquest ou response
 Ele contem o URL utilizada, o método, o status code, o remote address e outros
+
+## Aula 31 - Request
+Ele contem diversos itens utilizado na requisição onde agora veremos alguns
+Temos o authority que serve para definir quem domina o conteúdo
+Method que mostra o método utilizado
+Path mostra o caminho do domínio
+Cookie são os rastros proposital que os sites deixam
