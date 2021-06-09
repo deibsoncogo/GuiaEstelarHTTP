@@ -194,3 +194,9 @@ Usamos ele para remover um recurso/informação
   * [X] Response (Se possui uma resposta)
   * [ ] Formulário (Se é utilizado em formulários)
   * [ ] Cacheable (Se podemos criar cache com ele)
+
+# Modulo 06 - Headers
+
+## Aula 28 - O que são Headers?
+Sua tradução é cabeçalhos, onde são informações adicionais utilizado no resquest ou no response
+Ele funciona no esquema de nome e valor
