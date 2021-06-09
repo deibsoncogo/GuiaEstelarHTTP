@@ -185,3 +185,12 @@ Ele serve para realizar uma modificação parcial de algo
   * [X] Response (Se possui uma resposta)
   * [ ] Formulário (Se é utilizado em formulários)
   * [ ] Cacheable (Se podemos criar cache com ele)
+
+## Aula 27 - Delete
+Usamos ele para remover um recurso/informação
+  * [ ] Seguro (Se não altera alguma informação)
+  * [X] Idempotente (Se sempre teremos o mesmo tipo de retorno)
+  * [X] Request (Se possui uma requisição)
+  * [X] Response (Se possui uma resposta)
+  * [ ] Formulário (Se é utilizado em formulários)
+  * [ ] Cacheable (Se podemos criar cache com ele)
