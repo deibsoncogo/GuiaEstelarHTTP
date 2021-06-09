@@ -214,3 +214,9 @@ Temos o authority que serve para definir quem domina o conteúdo
 Method que mostra o método utilizado
 Path mostra o caminho do domínio
 Cookie são os rastros proposital que os sites deixam
+
+## Aula 32 - Response
+Existe também diversos tipos onde os principais é o
+Cache control que mostra as configurações dos caches
+Content encoding mostra o tipo de codificação
+Date mostra quando a informação foi criada
