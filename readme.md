@@ -255,3 +255,6 @@ Os de erros do cliente começam com o número 4
 Os de erros do servidor começam com o número 5
   * 500 quando acontece um erro no servidor
   * 503 é quando o serviço não está disponível
+
+## Aula 35 - Buscando mais informações
+No DevDocs também temos os códigos da status code explicando todos eles
