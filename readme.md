@@ -203,3 +203,7 @@ Ele funciona no esquema de nome e valor
 
 ## Aula 29 - Entendendo pelo contexto
 Existe diversos headers e para deixar dinâmico a explicação iremos dividir eles em três contextos como general, request headers e response headers.
+
+## Aula 30 - General
+Os contextos `servem` podem ser utilizado tanto pelo resquest ou response
+Ele contem o URL utilizada, o método, o status code, o remote address e outros
